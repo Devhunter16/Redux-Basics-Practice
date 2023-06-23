@@ -44,7 +44,7 @@ const counterSubscriber = () => {
 };
 
 // Here we're making redux aware of our subscriber function and telling it that that
-// function should be executed whenever our state changes. We do this be passing our 
+// function should be executed whenever our state changes. We do this by passing our 
 // subscriber function to the .subscribe() method on our store.
 store.subscribe(counterSubscriber);
 
